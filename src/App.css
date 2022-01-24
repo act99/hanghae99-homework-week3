@@ -71,3 +71,20 @@
   font-size: xx-large;
   padding: 50px;
 }
+
+.home-work-answer-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-work-answer-weekday {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.answer-title {
+  font-size: larger;
+}
