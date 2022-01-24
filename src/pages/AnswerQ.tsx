@@ -46,10 +46,6 @@ const AnswerQ: React.FC = () => {
           평점남기기
         </Button>
       </Link>
-
-      {/* <button style={{ padding: 10}}>
-        평점남기기
-      </button> */}
     </div>
   );
 };
