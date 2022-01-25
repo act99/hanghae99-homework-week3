@@ -53,7 +53,7 @@ const HomeWork = () => {
         >
           <h3 className="home-work-title">내 일주일은?</h3>
           {result.map((item: any) => (
-            <div className="home-work-div">
+            <div className="home-work-div" key={item}>
               <h3 className="home-work-font">{item[1]}</h3>
               <Rating
                 name="read-only"
